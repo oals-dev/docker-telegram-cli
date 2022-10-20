@@ -18,7 +18,7 @@ RUN \
       libpython-dev \
       zlib1g-dev \
   && \
-  git clone --recursive https://github.com/vysheng/tg.git /tg && \
+  git clone --recursive https://github.com/kenorb-contrib/tg /tg && \
   cd /tg && \
   ./configure && \
   cd /tg && \
